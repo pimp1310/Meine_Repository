@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+ 
+<addon
+  id="skin.aeonmq7mod"
+  version="0.0.3"
+  name="AEON MQ7 Krypton MOD"
+  provider-name="Bumblebee">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TEST</summary>
+    <description>TEST2</description>
+    <platform>all</platform>
+  </extension>
+</addon>
